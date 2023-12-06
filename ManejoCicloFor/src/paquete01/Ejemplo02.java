@@ -16,10 +16,12 @@ public class Ejemplo02 {
      */
     public static void main(String[] args) {
         
-        for (int i = 1; i <= 10; i+=2) {
+        for (int i = 1; i <= 10; i+=2) {// el +=2 quiere decir que se va
+                                        //aumentando de 2 en 2
             System.out.printf("%d\n", i);
         }
         
     }
     
 }
+

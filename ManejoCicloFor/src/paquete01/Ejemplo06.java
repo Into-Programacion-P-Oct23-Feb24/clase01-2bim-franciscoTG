@@ -22,7 +22,7 @@ public class Ejemplo06 {
         System.out.println("Ingrese la tabla a generar");
         tabla = entrada.nextInt(); // 7
         
-        for (int contador = 5; contador <= 12; contador++) {
+        for (int contador = 1; contador <= 12; contador++) {
             operacion = tabla * contador; // 7*5 = 35 // 7*6 = 42
             // System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
             cadenaFinal = String.format("%s%d x %d = %d\n", 
